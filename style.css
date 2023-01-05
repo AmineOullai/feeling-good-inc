@@ -87,3 +87,77 @@ ul > a:hover {
 .btn-outlined:hover {
   color: #7562e0;
 }
+#Aboutme {
+  display: block;
+  margin: auto;
+}
+.separation {
+  background-color: #1a1a29;
+  min-height: 100px;
+}
+.title {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+.equal {
+  display: flex;
+  align-items: center;
+}
+#Aboutme h4 {
+  font-size: 5em;
+  display: inline;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.exp {
+  display: inline;
+  font-size: 1.4em;
+}
+.cards {
+  display: flex;
+  height: 240px;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+.mdcard {
+  background-color: #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 10px;
+  flex-grow: 1;
+  flex-basis: 25%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.mdcard:first-child {
+  background-color: #7562e0;
+}
+.mdcard p {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.card2 {
+  display: flex;
+  border: 3px solid #7562e0;
+  border-radius: 15px;
+  flex-direction: column;
+  flex-basis: 28%;
+  align-items: center;
+  justify-content: baseline;
+  justify-items: center;
+  height: 300px;
+  padding: 70px 0px 0px 0px;
+  text-align: center;
+}
+.card2:nth-child(even) {
+  border-color: #bdbdbd;
+}
